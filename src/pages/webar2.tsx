@@ -10,18 +10,18 @@ export default function Webar2() {
             </Head>
             <main>
                 <section className={styles.container}>
-                    <Link href="/">
-                        <a>Voltar</a>
-                    </Link>
-                    <div>
+                    <div className={styles.linkvoltar}>
+                        <Link href="/">
+                            <a>Voltar</a>
+                        </Link>
+                    </div>
                     <iframe
-                    className={styles.iframe}
+                        className={styles.iframe}
                         src="https://8thwall.8thwall.app/capturephoto-aframe/"
                         allow="accelerometer"
                         title="Iframe Example"
                         allowFullScreen
-                        ></iframe>
-                    </div>
+                    ></iframe>
                 </section>
             </main>
         </>

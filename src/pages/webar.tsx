@@ -10,20 +10,19 @@ export default function Webar() {
             </Head>
             <main>
                 <section className={styles.container}>
-
-                <div className={styles.linkvoltar}>
-                    <Link href="/">
-                        <a>Voltar</a>
-                    </Link>
+                    <div className={styles.linkvoltar}>
+                        <Link href="/">
+                            <a>Voltar</a>
+                        </Link>
                     </div>
                     <iframe
-                    className={styles.iframe}
+                        className={styles.iframe}
                         src="https://www.area-ar.com/natal21/"
                         allow="accelerometer"
                         title="Iframe Example"
                         allowFullScreen
-                        ></iframe>
-                  
+                    ></iframe>
+
                     <div></div>
                 </section>
             </main>
