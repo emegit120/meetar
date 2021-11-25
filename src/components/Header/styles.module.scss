@@ -1,0 +1,32 @@
+.headerContainer{
+    height: 6rem;
+
+}
+.headerContent{
+    max-width: 1120px;
+    height: 6rem;
+    margin: 1rem auto;
+    padding: 0 1rem;
+}
+.headerCategories{
+    display: flex;
+    justify-content: space-between;
+}
+.navHeader{
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    background: #242424;
+    display: flex;
+    justify-content: space-between;
+    transition: transform .2s;
+    a{
+        font-size: 0.7rem;
+        padding: 0.4rem;
+        text-transform: uppercase;
+        &:active{
+            background: #3E3E3E;
+            border-radius: 0.5rem;
+            transform: scale(1.2);
+        }
+    }
+}
