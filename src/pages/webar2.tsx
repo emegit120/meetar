@@ -1,8 +1,24 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { useEffect } from 'react';
 import styles from '../../styles/webbar.module.scss'
+import $ from 'jquery'
 
 export default function Webar2() {
+
+    useEffect(() => {
+
+
+        console.log('TAG>',$('#teste').css('display','flex'))
+
+        $("#teste").load("https://8thwall.8thwall.app/capturephoto-aframe/");
+
+
+    },[])
+
+    
+    
+  
     return (
         <>
             <Head>
@@ -15,15 +31,18 @@ export default function Webar2() {
                             <a>Voltar</a>
                         </Link>
                     </div>
-                    <iframe
+                    <div className={styles.iframe} id="teste"></div>
+                    {/* <iframe
                         className={styles.iframe}
                         src="https://8thwall.8thwall.app/capturephoto-aframe/"
                         allow="accelerometer"
                         title="Iframe Example"
                         allowFullScreen
-                    ></iframe>
-                </section>
+                    ></iframe> */}
+                    </section>
             </main>
+           
         </>
+        
     )
 }
