@@ -33,7 +33,7 @@ export default function Webar2() {
                     </div>
                     <iframe
                         className={styles.iframe}
-                        src="https://8thwall.8thwall.app/capturephoto-aframe/"
+                        src="https://www.8thwall.com/blog/post/56548289792/warner-bros.-pictures-and-legendary-create-cross-platform-avatar-experience-to-promote-upcoming-film-dune"
                         allow="accelerometer"
                         title="Iframe Example"
                         allowFullScreen

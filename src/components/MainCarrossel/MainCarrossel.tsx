@@ -26,7 +26,9 @@ export function MainCarrossel() {
                         src="/images/banner1.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.botoes}>
                     <Link href="/webar"><a href="#">VIEW AR</a></Link>
+                    </div>
                 </div>
                 <div className={styles.bodyContainer}>
                     <Image
@@ -36,7 +38,10 @@ export function MainCarrossel() {
                         src="/images/banner2.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.botoes}>
                     <Link href="https://8thwall.8thwall.app/capturephoto-aframe/"><a>VIEW AR</a></Link>
+                    <Link href="/webar2"><a href="#">BASTIDORES</a></Link>
+                    </div>
                 </div>
                 <div className={styles.bodyContainer}>
                     <Image
@@ -46,7 +51,9 @@ export function MainCarrossel() {
                         src="/images/banner3.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.botoes}>
                     <Link href="/webar3"><a>VIEW AR</a></Link>
+                    </div>
                 </div>
                 <div className={styles.bodyContainer}>
                     <Image
