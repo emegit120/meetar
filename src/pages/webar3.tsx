@@ -1,24 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { useEffect } from 'react';
 import styles from '../../styles/webbar.module.scss'
-import $ from 'jquery'
 
-export default function Webar2() {
-
-    useEffect(() => {
-
-
-     //   console.log('TAG>',$('#teste').css('display','flex'))
-
-
-      
-
-    },[])
-
-    
-    
-  
+export default function Webar() {
     return (
         <>
             <Head>
@@ -33,15 +17,15 @@ export default function Webar2() {
                     </div>
                     <iframe
                         className={styles.iframe}
-                        src="https://8thwall.8thwall.app/capturephoto-aframe/"
+                        src="https://web.zappar.com/?zid=z/xBlj1c"
                         allow="accelerometer"
                         title="Iframe Example"
                         allowFullScreen
                     ></iframe>
-                    </section>
+
+                    <div></div>
+                </section>
             </main>
-           
         </>
-        
     )
 }

@@ -36,16 +36,17 @@ export function MainCarrossel() {
                         src="/images/banner2.jpg"
                         alt="Banner"
                     />
-                    <Link href="/webar2"><a href="#">VIEW AR</a></Link>
+                    <Link href="https://8thwall.8thwall.app/capturephoto-aframe/"><a>VIEW AR</a></Link>
                 </div>
                 <div className={styles.bodyContainer}>
                     <Image
                     layout="responsive"
                     width={419}
                     height={239}
-                        src="/images/banner.jpg"
+                        src="/images/banner3.jpg"
                         alt="Banner"
                     />
+                    <Link href="/webar3"><a>VIEW AR</a></Link>
                 </div>
                 <div className={styles.bodyContainer}>
                     <Image
@@ -107,7 +108,7 @@ export function MainCarrossel() {
                     layout="responsive"
                     width={137}
                     height={192}
-                        src="/images/img1.jpg"
+                    src="/images/img-webar3.jpg"
                         alt="Banner"
                     />
                 </div>
