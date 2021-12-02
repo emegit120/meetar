@@ -1,12 +1,25 @@
 .container {
   padding: 1rem;
 }
+.marginBottom {
+  margin-bottom: 1rem;
+}
 .linkvoltar{
   padding: 0.5rem;
   background: #242424;
   border-radius: 0.5rem;
   z-index: 1;
   position: absolute;
+}
+.linkvoltarBarra{
+  padding: 1rem;
+  background: #242424;
+  z-index: 1;
+  text-align: center;
+}
+.linkConteudo{
+  color: aqua;
+  text-decoration: underline;
 }
 .iframe{
   position:fixed;
@@ -20,6 +33,15 @@
   margin:0;
   padding:0;
   overflow:hidden;
+}
+.iframeVideo{
+  width:100%;
+  height:100%;
+  border:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  margin-bottom: 1rem;
 }
 .conteudo{
   font-size: 12px;
