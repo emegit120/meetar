@@ -15,34 +15,45 @@
         border: 1px solid;
     }
 }
-.bodyCarrossel {
+.bodyCarrossel
+ {
     display: flex;
     justify-content: center;
     padding: 0.3rem;
     img {
         width: 100%;
     }
-   
 }
-.titleCarrossel{
+.bodyCarrosselBaixo
+ {
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem;
+    :hover{
+        transform: scale(1.05) !important;
+    }
+}
+.titleCarrossel {
     margin-left: 0.5rem;
-
 }
-.botoes{
+.botoes {
     right: 5rem;
-        left: 5rem;
-        text-align: center;
-        bottom: 1rem;
-        position: absolute;
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-content: center;
-        align-items: center;
+    left: 5rem;
+    text-align: center;
+    bottom: 1rem;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
 }
-.btnLabel{
+.btnLabel {
     position: absolute;
     top: 1rem;
     right: 1rem;
+}
+.slick-current{
+    transform: scale(1.05) !important;
 }

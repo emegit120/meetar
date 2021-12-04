@@ -27,7 +27,7 @@ export function MainCarrossel() {
                         alt="Banner"
                     />
                     <div className={styles.botoes}>
-                        <Link href="https://www.area-ar.com/natal21/"><a>VIEW AR</a></Link>
+                        <Link href="https://www.brastemp.com.br/purificadores-de-agua/assinatura/sparkling#realidade?utm_content=RASiteSparkling"><a>VIEW AR</a></Link>
                     </div>
                 </div>
                 <div className={styles.bodyContainer}>
@@ -38,8 +38,7 @@ export function MainCarrossel() {
                         src="/images/banner2.jpg"
                         alt="Banner"
                     />
-                    
-                    <Link href="https://web.zappar.com/?zid=z/xBlj1c&rs=&menu=&toolbar="><a className={styles.btnLabel}>Label</a></Link>
+                        <Link href="/label"><a className={styles.btnLabel}>Label</a></Link>
                     <div className={styles.botoes}>
                         <Link href="https://web.zappar.com/?zid=z/xBlj1c&rs=&menu=&toolbar="><a>VIEW AR</a></Link>
                     </div>
@@ -52,7 +51,7 @@ export function MainCarrossel() {
                         src="/images/banner3.jpg"
                         alt="Banner"
                     />
-                    <Link href="https://web.zappar.com/?zid=z/EhNm1c&rs=1&menu=1&toolbar=1"><a className={styles.btnLabel}>Label</a></Link>
+                    <Link href="/label2"><a className={styles.btnLabel}>Label</a></Link>
                     <div className={styles.botoes}>
                         <Link href="https://web.zappar.com/?zid=z/EhNm1c&rs=1&menu=1&toolbar=1"><a>VIEW AR</a></Link>
                     </div>
@@ -62,28 +61,77 @@ export function MainCarrossel() {
                         layout="responsive"
                         width={419}
                         height={239}
-                        src="/images/banner.jpg"
+                        src="/images/banner4.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.botoes}>
+                        <Link href="https://area-ar.com/lambreta/"><a>VIEW AR</a></Link>
+                    </div>
                 </div>
                 <div className={styles.bodyContainer}>
                     <Image
                         layout="responsive"
                         width={419}
                         height={239}
-                        src="/images/banner.jpg"
+                        src="/images/banner5.jpg"
                         alt="Banner"
                     />
+                    <Link href="/label3"><a className={styles.btnLabel}>Label</a></Link>
+                    <div className={styles.botoes}>
+                        <Link href="https://mywebar.com/p/AveiaIntegral"><a>VIEW AR</a></Link>
+                    </div>
                 </div>
                 <div className={styles.bodyContainer}>
                     <Image
                         layout="responsive"
                         width={419}
                         height={239}
-                        src="/images/banner.jpg"
+                        src="/images/banner6.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.botoes}>
+                        <Link href="https://toolofnorthamerica.8thwall.app/pizza-hut-pacman/?f=1"><a>VIEW AR</a></Link>
+                    </div>
                 </div>
+                <div className={styles.bodyContainer}>
+                    <Image
+                        layout="responsive"
+                        width={419}
+                        height={239}
+                        src="/images/banner7.jpg"
+                        alt="Banner"
+                    />
+                    <div className={styles.botoes}>
+                        <Link href="https://alivenow.8thwall.app/freefire/"><a>VIEW AR</a></Link>
+                    </div>
+                </div>
+                <div className={styles.bodyContainer}>
+                    <Image
+                        layout="responsive"
+                        width={419}
+                        height={239}
+                        src="/images/banner8.jpg"
+                        alt="Banner"
+                    />
+                    <div className={styles.botoes}>
+                        <Link href="https://aircards.8thwall.app/chronic-cellars/"><a>VIEW AR</a></Link>
+                    </div>
+                </div>
+                <div className={styles.bodyContainer}>
+                    <Image
+                        layout="responsive"
+                        width={419}
+                        height={239}
+                        src="/images/banner9.jpg"
+                        alt="Banner"
+                    />
+                    <div className={styles.botoes}>
+                        <Link href="https://alivenow.8thwall.app/flipandmatch/"><a>VIEW AR</a></Link>
+                    </div>
+                </div>
+
+                
+                
             </Slider>
             <h4 className={styles.titleCarrossel}>AR NOW</h4>
             <Slider
@@ -94,7 +142,7 @@ export function MainCarrossel() {
                 swipeToSlide={true}
                 focusOnSelect={true}
             >
-                <div className={styles.bodyCarrossel}>
+                <div className={styles.bodyCarrosselBaixo}>
                     <Image
                         layout="responsive"
                         width={137}
@@ -103,7 +151,7 @@ export function MainCarrossel() {
                         alt="Banner"
                     />
                 </div>
-                <div className={styles.bodyCarrossel}>
+                <div className={styles.bodyCarrosselBaixo}>
                     <Image
                         layout="responsive"
                         width={137}
@@ -112,7 +160,7 @@ export function MainCarrossel() {
                         alt="Banner"
                     />
                 </div>
-                <div className={styles.bodyCarrossel}>
+                <div className={styles.bodyCarrosselBaixo}>
                     <Image
                         layout="responsive"
                         width={137}
@@ -121,96 +169,66 @@ export function MainCarrossel() {
                         alt="Banner"
                     />
                 </div>
-                <div className={styles.bodyCarrossel}>
+                <div className={styles.bodyCarrosselBaixo}>
                     <Image
                         layout="responsive"
                         width={137}
                         height={192}
-                        src="/images/img1.jpg"
+                        src="/images/img-webar4.jpg"
                         alt="Banner"
                     />
                 </div>
-                <div className={styles.bodyCarrossel}>
+                <div className={styles.bodyCarrosselBaixo}>
                     <Image
                         layout="responsive"
                         width={137}
                         height={192}
-                        src="/images/img1.jpg"
+                        src="/images/img-webar5.jpg"
                         alt="Banner"
                     />
                 </div>
-                <div className={styles.bodyCarrossel}>
+                <div className={styles.bodyCarrosselBaixo}>
                     <Image
                         layout="responsive"
                         width={137}
                         height={192}
-                        src="/images/img1.jpg"
+                        src="/images/img-webar6.jpg"
                         alt="Banner"
                     />
                 </div>
+                <div className={styles.bodyCarrosselBaixo}>
+                    <Image
+                        layout="responsive"
+                        width={137}
+                        height={192}
+                        src="/images/img-webar7.jpg"
+                        alt="Banner"
+                    />
+                </div>
+                <div className={styles.bodyCarrosselBaixo}>
+                    <Image
+                        layout="responsive"
+                        width={137}
+                        height={192}
+                        src="/images/img-webar8.jpg"
+                        alt="Banner"
+                    />
+                </div>
+                <div className={styles.bodyCarrosselBaixo}>
+                    <Image
+                        layout="responsive"
+                        width={137}
+                        height={192}
+                        src="/images/img-webar9.jpg"
+                        alt="Banner"
+                    />
+                </div>
+              
+
+
+                
             </Slider>
-            <h4 className={styles.titleCarrossel}>Try-ON</h4>
-            <Slider
-                {...settings}
-                slidesToShow={3}
-                swipeToSlide={true}
-                focusOnSelect={true}
-            >
-                <div className={styles.bodyCarrossel}>
-                    <Image
-                        layout="responsive"
-                        width={137}
-                        height={192}
-                        src="/images/img1.jpg"
-                        alt="Banner"
-                    />
-                </div>
-                <div className={styles.bodyCarrossel}>
-                    <Image
-                        layout="responsive"
-                        width={137}
-                        height={192}
-                        src="/images/img1.jpg"
-                        alt="Banner"
-                    />
-                </div>
-                <div className={styles.bodyCarrossel}>
-                    <Image
-                        layout="responsive"
-                        width={137}
-                        height={192}
-                        src="/images/img1.jpg"
-                        alt="Banner"
-                    />
-                </div>
-                <div className={styles.bodyCarrossel}>
-                    <Image
-                        layout="responsive"
-                        width={137}
-                        height={192}
-                        src="/images/img1.jpg"
-                        alt="Banner"
-                    />
-                </div>
-                <div className={styles.bodyCarrossel}>
-                    <Image
-                        layout="responsive"
-                        width={137}
-                        height={192}
-                        src="/images/img1.jpg"
-                        alt="Banner"
-                    />
-                </div>
-                <div className={styles.bodyCarrossel}>
-                    <Image
-                        layout="responsive"
-                        width={137}
-                        height={192}
-                        src="/images/img1.jpg"
-                        alt="Banner"
-                    />
-                </div>
-            </Slider>
+          
         </>
     );
 }
