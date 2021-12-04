@@ -1,5 +1,5 @@
 .headerContainer{
-    height: 6rem;
+    height: 4rem;
 
 }
 .headerContent{
@@ -16,7 +16,7 @@
     border-radius: 0.5rem;
     margin: 1rem 0;
     background: #242424;
-    display: flex;
+    display: none;
     justify-content: space-between;
     transition: transform .2s;
     a{

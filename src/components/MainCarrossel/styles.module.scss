@@ -12,6 +12,7 @@
         color: black;
         padding: 0.5rem;
         margin-right: 0.5rem;
+        border: 1px solid;
     }
 }
 .bodyCarrossel {
@@ -39,4 +40,9 @@
         flex-wrap: nowrap;
         align-content: center;
         align-items: center;
+}
+.btnLabel{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }

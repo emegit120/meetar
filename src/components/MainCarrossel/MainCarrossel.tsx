@@ -20,64 +20,66 @@ export function MainCarrossel() {
             >
                 <div className={styles.bodyContainer}>
                     <Image
-                    layout="responsive"
-                    width={419}
-                    height={239}
+                        layout="responsive"
+                        width={419}
+                        height={239}
                         src="/images/banner1.jpg"
                         alt="Banner"
                     />
                     <div className={styles.botoes}>
-                    <Link href="https://www.area-ar.com/natal21/"><a>VIEW AR</a></Link>
+                        <Link href="https://www.area-ar.com/natal21/"><a>VIEW AR</a></Link>
                     </div>
                 </div>
                 <div className={styles.bodyContainer}>
                     <Image
-                    layout="responsive"
-                    width={419}
-                    height={239}
+                        layout="responsive"
+                        width={419}
+                        height={239}
                         src="/images/banner2.jpg"
                         alt="Banner"
                     />
+                    
+                    <Link href="https://web.zappar.com/?zid=z/xBlj1c&rs=&menu=&toolbar="><a className={styles.btnLabel}>Label</a></Link>
                     <div className={styles.botoes}>
-                    <Link href="https://dune-avatar.com/"><a>VIEW AR</a></Link>
-                    <Link href="/webar2"><a href="#">BASTIDORES</a></Link>
+                        <Link href="https://web.zappar.com/?zid=z/xBlj1c&rs=&menu=&toolbar="><a>VIEW AR</a></Link>
                     </div>
                 </div>
                 <div className={styles.bodyContainer}>
                     <Image
-                    layout="responsive"
-                    width={419}
-                    height={239}
+                        layout="responsive"
+                        width={419}
+                        height={239}
                         src="/images/banner3.jpg"
                         alt="Banner"
                     />
+                    <Link href="https://web.zappar.com/?zid=z/EhNm1c&rs=1&menu=1&toolbar=1"><a className={styles.btnLabel}>Label</a></Link>
                     <div className={styles.botoes}>
-                    <Link href="https://web.zappar.com/?zid=z/xBlj1c"><a>VIEW AR</a></Link>
+                        <Link href="https://web.zappar.com/?zid=z/EhNm1c&rs=1&menu=1&toolbar=1"><a>VIEW AR</a></Link>
                     </div>
                 </div>
                 <div className={styles.bodyContainer}>
                     <Image
-                    layout="responsive"
-                    width={419}
-                    height={239}
+                        layout="responsive"
+                        width={419}
+                        height={239}
                         src="/images/banner.jpg"
                         alt="Banner"
                     />
                 </div>
                 <div className={styles.bodyContainer}>
                     <Image
-                    layout="responsive"
-                    width={419}
-                    height={239}
+                        layout="responsive"
+                        width={419}
+                        height={239}
                         src="/images/banner.jpg"
                         alt="Banner"
                     />
                 </div>
                 <div className={styles.bodyContainer}>
                     <Image
-                    layout="responsive"
-                    width={419}
-                    height={239}
+                        layout="responsive"
+                        width={419}
+                        height={239}
                         src="/images/banner.jpg"
                         alt="Banner"
                     />
@@ -94,54 +96,54 @@ export function MainCarrossel() {
             >
                 <div className={styles.bodyCarrossel}>
                     <Image
-                    layout="responsive"
-                    width={137}
-                    height={192}
+                        layout="responsive"
+                        width={137}
+                        height={192}
                         src="/images/img-webar1.jpg"
                         alt="Banner"
                     />
                 </div>
                 <div className={styles.bodyCarrossel}>
                     <Image
-                    layout="responsive"
-                    width={137}
-                    height={192}
+                        layout="responsive"
+                        width={137}
+                        height={192}
                         src="/images/img-webar2.jpg"
                         alt="Banner"
                     />
                 </div>
                 <div className={styles.bodyCarrossel}>
                     <Image
-                    layout="responsive"
-                    width={137}
-                    height={192}
-                    src="/images/img-webar3.jpg"
+                        layout="responsive"
+                        width={137}
+                        height={192}
+                        src="/images/img-webar3.jpg"
                         alt="Banner"
                     />
                 </div>
                 <div className={styles.bodyCarrossel}>
                     <Image
-                    layout="responsive"
-                    width={137}
-                    height={192}
+                        layout="responsive"
+                        width={137}
+                        height={192}
                         src="/images/img1.jpg"
                         alt="Banner"
                     />
                 </div>
                 <div className={styles.bodyCarrossel}>
                     <Image
-                    layout="responsive"
-                    width={137}
-                    height={192}
+                        layout="responsive"
+                        width={137}
+                        height={192}
                         src="/images/img1.jpg"
                         alt="Banner"
                     />
                 </div>
                 <div className={styles.bodyCarrossel}>
                     <Image
-                    layout="responsive"
-                    width={137}
-                    height={192}
+                        layout="responsive"
+                        width={137}
+                        height={192}
                         src="/images/img1.jpg"
                         alt="Banner"
                     />
@@ -156,54 +158,54 @@ export function MainCarrossel() {
             >
                 <div className={styles.bodyCarrossel}>
                     <Image
-                    layout="responsive"
-                    width={137}
-                    height={192}
+                        layout="responsive"
+                        width={137}
+                        height={192}
                         src="/images/img1.jpg"
                         alt="Banner"
                     />
                 </div>
                 <div className={styles.bodyCarrossel}>
                     <Image
-                    layout="responsive"
-                    width={137}
-                    height={192}
+                        layout="responsive"
+                        width={137}
+                        height={192}
                         src="/images/img1.jpg"
                         alt="Banner"
                     />
                 </div>
                 <div className={styles.bodyCarrossel}>
                     <Image
-                    layout="responsive"
-                    width={137}
-                    height={192}
+                        layout="responsive"
+                        width={137}
+                        height={192}
                         src="/images/img1.jpg"
                         alt="Banner"
                     />
                 </div>
                 <div className={styles.bodyCarrossel}>
                     <Image
-                    layout="responsive"
-                    width={137}
-                    height={192}
+                        layout="responsive"
+                        width={137}
+                        height={192}
                         src="/images/img1.jpg"
                         alt="Banner"
                     />
                 </div>
                 <div className={styles.bodyCarrossel}>
                     <Image
-                    layout="responsive"
-                    width={137}
-                    height={192}
+                        layout="responsive"
+                        width={137}
+                        height={192}
                         src="/images/img1.jpg"
                         alt="Banner"
                     />
                 </div>
                 <div className={styles.bodyCarrossel}>
                     <Image
-                    layout="responsive"
-                    width={137}
-                    height={192}
+                        layout="responsive"
+                        width={137}
+                        height={192}
                         src="/images/img1.jpg"
                         alt="Banner"
                     />
