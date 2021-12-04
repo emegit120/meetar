@@ -14,6 +14,12 @@
         margin-right: 0.5rem;
         border: 1px solid;
     }
+    .shareImg{
+        position: absolute;
+        bottom: 0.5rem;
+        right: 0.5rem;
+    }
+    
 }
 .bodyCarrossel
  {
@@ -53,7 +59,4 @@
     position: absolute;
     top: 1rem;
     right: 1rem;
-}
-.slick-current{
-    transform: scale(1.05) !important;
 }

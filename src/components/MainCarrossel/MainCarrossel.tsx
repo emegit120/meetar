@@ -26,9 +26,21 @@ export function MainCarrossel() {
                         src="/images/banner1.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.shareImg}> 
+                    <Link href="https://api.whatsapp.com/send?text=https://www.brastemp.com.br/purificadores-de-agua/assinatura/sparkling#realidade?utm_content=RASiteSparkling">
+                        <Image
+                            
+                            width={51}
+                            height={51}
+                            src="/images/share.png"
+                            alt="Banner"
+                        />
+                    </Link>
+                    </div>
                     <div className={styles.botoes}>
                         <Link href="https://www.brastemp.com.br/purificadores-de-agua/assinatura/sparkling#realidade?utm_content=RASiteSparkling"><a>VIEW AR</a></Link>
                     </div>
+                   
                 </div>
                 <div className={styles.bodyContainer}>
                     <Image
@@ -38,6 +50,17 @@ export function MainCarrossel() {
                         src="/images/banner2.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.shareImg}> 
+                    <Link href="https://api.whatsapp.com/send?text=https://web.zappar.com/?zid=z/xBlj1c&rs=&menu=&toolbar=">
+                        <Image
+                            
+                            width={51}
+                            height={51}
+                            src="/images/share.png"
+                            alt="Banner"
+                        />
+                    </Link>
+                    </div>
                         <Link href="/label"><a className={styles.btnLabel}>Label</a></Link>
                     <div className={styles.botoes}>
                         <Link href="https://web.zappar.com/?zid=z/xBlj1c&rs=&menu=&toolbar="><a>VIEW AR</a></Link>
@@ -51,6 +74,17 @@ export function MainCarrossel() {
                         src="/images/banner3.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.shareImg}> 
+                    <Link href="https://api.whatsapp.com/send?text=https://web.zappar.com/?zid=z/EhNm1c&rs=1&menu=1&toolbar=1">
+                        <Image
+                            
+                            width={51}
+                            height={51}
+                            src="/images/share.png"
+                            alt="Banner"
+                        />
+                    </Link>
+                    </div>
                     <Link href="/label2"><a className={styles.btnLabel}>Label</a></Link>
                     <div className={styles.botoes}>
                         <Link href="https://web.zappar.com/?zid=z/EhNm1c&rs=1&menu=1&toolbar=1"><a>VIEW AR</a></Link>
@@ -64,6 +98,17 @@ export function MainCarrossel() {
                         src="/images/banner4.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.shareImg}> 
+                    <Link href="https://api.whatsapp.com/send?text=https://area-ar.com/lambreta/">
+                        <Image
+                            
+                            width={51}
+                            height={51}
+                            src="/images/share.png"
+                            alt="Banner"
+                        />
+                    </Link>
+                    </div>
                     <div className={styles.botoes}>
                         <Link href="https://area-ar.com/lambreta/"><a>VIEW AR</a></Link>
                     </div>
@@ -76,6 +121,17 @@ export function MainCarrossel() {
                         src="/images/banner5.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.shareImg}> 
+                    <Link href="https://api.whatsapp.com/send?text=https://mywebar.com/p/AveiaIntegral">
+                        <Image
+                            
+                            width={51}
+                            height={51}
+                            src="/images/share.png"
+                            alt="Banner"
+                        />
+                    </Link>
+                    </div>
                     <Link href="/label3"><a className={styles.btnLabel}>Label</a></Link>
                     <div className={styles.botoes}>
                         <Link href="https://mywebar.com/p/AveiaIntegral"><a>VIEW AR</a></Link>
@@ -89,6 +145,17 @@ export function MainCarrossel() {
                         src="/images/banner6.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.shareImg}> 
+                    <Link href="https://api.whatsapp.com/send?text=https://toolofnorthamerica.8thwall.app/pizza-hut-pacman/?f=1">
+                        <Image
+                            
+                            width={51}
+                            height={51}
+                            src="/images/share.png"
+                            alt="Banner"
+                        />
+                    </Link>
+                    </div>
                     <div className={styles.botoes}>
                         <Link href="https://toolofnorthamerica.8thwall.app/pizza-hut-pacman/?f=1"><a>VIEW AR</a></Link>
                     </div>
@@ -101,6 +168,17 @@ export function MainCarrossel() {
                         src="/images/banner7.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.shareImg}> 
+                    <Link href="https://api.whatsapp.com/send?text=https://alivenow.8thwall.app/freefire/">
+                        <Image
+                            
+                            width={51}
+                            height={51}
+                            src="/images/share.png"
+                            alt="Banner"
+                        />
+                    </Link>
+                    </div>
                     <div className={styles.botoes}>
                         <Link href="https://alivenow.8thwall.app/freefire/"><a>VIEW AR</a></Link>
                     </div>
@@ -113,6 +191,17 @@ export function MainCarrossel() {
                         src="/images/banner8.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.shareImg}> 
+                    <Link href="https://api.whatsapp.com/send?text=https://aircards.8thwall.app/chronic-cellars/">
+                        <Image
+                            
+                            width={51}
+                            height={51}
+                            src="/images/share.png"
+                            alt="Banner"
+                        />
+                    </Link>
+                    </div>
                     <div className={styles.botoes}>
                         <Link href="https://aircards.8thwall.app/chronic-cellars/"><a>VIEW AR</a></Link>
                     </div>
@@ -125,6 +214,17 @@ export function MainCarrossel() {
                         src="/images/banner9.jpg"
                         alt="Banner"
                     />
+                    <div className={styles.shareImg}> 
+                    <Link href="https://api.whatsapp.com/send?text=https://alivenow.8thwall.app/flipandmatch/">
+                        <Image
+                            
+                            width={51}
+                            height={51}
+                            src="/images/share.png"
+                            alt="Banner"
+                        />
+                    </Link>
+                    </div>
                     <div className={styles.botoes}>
                         <Link href="https://alivenow.8thwall.app/flipandmatch/"><a>VIEW AR</a></Link>
                     </div>
