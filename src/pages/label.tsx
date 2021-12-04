@@ -10,38 +10,38 @@ export default function Webar() {
                 <title>WebAr | MeetAr</title>
             </Head>
             <main>
-            <div className={styles.linkvoltarBarra}>
-                        <Link href="/">
-                            <a>Voltar</a>
-                        </Link>
-                    </div>
+                <div className={styles.linkvoltarBarra}>
+                    <Link href="/">
+                        <a>Voltar</a>
+                    </Link>
+                </div>
                 <section className={styles.container}>
-                   
-                    <div className={styles.conteudo}>
-                        <h3>Escaneie este Qr code e depois aponte a camêra do seu celular para a imagem abaixo do produto:</h3>
-                        <Image
-                        width={200}
-                        height={200}
-                        src="/images/qrcode.jpg"
-                        alt="Banner"
-                    />
-                    </div>
-                    
-                    <Image
-                        layout="responsive"
-                        width={500}
-                        height={500}
-                        src="/images/label1.jpg"
-                        alt="Banner"
-                    />
 
-                  
+                    <div className={styles.conteudo}>
+                        <h3>Escaneie o Qr code e depois aponte a camêra do seu celular para a imagem abaixo do produto:</h3>
+                        <Image
+                            width={200}
+                            height={200}
+                            src="/images/qrcode.jpg"
+                            alt="Banner"
+                        />
+
+
+                        
+
+                    </div>
+                    <Image
+                            width={500}
+                            height={500}
+                            src="/images/label1.jpg"
+                            alt="Banner"
+                        />
                 </section>
                 <div className={styles.linkvoltarBarra}>
-                        <Link href="/">
-                            <a>Voltar</a>
-                        </Link>
-                    </div>
+                    <Link href="/">
+                        <a>Voltar</a>
+                    </Link>
+                </div>
             </main>
         </>
     )

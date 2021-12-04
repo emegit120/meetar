@@ -28,7 +28,6 @@ export default function Webar() {
                     </div>
                     
                     <Image
-                        layout="responsive"
                         width={500}
                         height={500}
                         src="/images/label3.jpg"
